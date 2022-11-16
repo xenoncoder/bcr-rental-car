@@ -1,9 +1,9 @@
 const express = require("express").Router;
 const router = express();
 
-const routerUser = require("./userApiRoutes");
-const routerCar = require("./carApiRoutes");
-const routerOrder = require("./orderApiRoutes");
+const routerUser = require("./userApiRoute");
+const routerCar = require("./carApiRoute");
+const routerOrder = require("./orderApiRoute");
 
 router.use("/users", routerUser);
 router.use("/cars", routerCar);

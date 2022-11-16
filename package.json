@@ -6,7 +6,10 @@
   "scripts": {
     "start:prod": "node app.js",
     "start:dev": "nodemon app.js",
+    "db:create": "sequelize db:create",
     "db:migrate": "sequelize db:migrate",
+    "db:migrate": "sequelize db:migrate",
+    "db:seeder": "sequelize db:seed:all",
     "db:setup": "sequelize db:create && sequelize db:migrate && sequelize db:seed:all",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,7 +21,6 @@
     "bcrypt": "^5.1.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
-    "ejs": "^3.1.8",
     "express": "^4.18.2",
     "express-fileupload": "^1.4.0",
     "firebase-admin": "^11.2.1",
