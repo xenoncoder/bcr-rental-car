@@ -9,10 +9,14 @@ REST API ini dikerjakan untuk memenuhi tugas **Challenge 05 FSW BINAR X SYNRGY**
 
 ## Setup Project
 
-1. Install terlebih dahulu [PostgreSQL](https://www.postgresql.org/download/)
+### Install terlebih dahulu [PostgreSQL](https://www.postgresql.org/download/)
 
-2. Lakukan instalasi dependencies terlebih dahulu sebelum menjalakan projectnya, berikut ini commandnya :
+### Install Dependencies 
+Lakukan installasi dependencies dengan perintah berikut :
 
-   npm install //Ketika anda menggunakan npm sebagai default package
-   OR
-   yarn install //Ketika anda menggunakan yarn sebagai default package
+
+    npm install
+    atau
+    yarn install
+
+s
