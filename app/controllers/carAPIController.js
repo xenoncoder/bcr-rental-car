@@ -58,13 +58,13 @@ class CarAPIController {
   static async getCarById(req, res) {
     try {
       const id = req.params.id;
-      const car = await Car.findOne({
+      const data = await Car.findOne({
         where: { id },
         rejectOnEmpty: true,
       });
       res
         .status(200)
-        .json({ message: "Berhasil Menampilkan Detail Mobil", car });
+        .json({ message: "Berhasil Menampilkan Detail Mobil", data });
     } catch (err) {
       res.status(500).json({ message: "Gagal Menampilkan Detail Mobil", err });
     }
